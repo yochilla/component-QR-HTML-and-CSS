@@ -1,0 +1,62 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+body{
+    background-color:   hsl(212, 45%, 89%);
+    
+    display: flex;
+    justify-content: center;
+    margin: 20px; 
+
+    /** Esse código é de um feedback que recebi no site
+    
+    background-color:   hsl(212, 45%, 89%);
+    
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    **/
+}
+
+div{
+    margin: 40px 0px 12px 0px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    
+    background-color: white;
+    border-radius: 20px;
+
+    width: 22rem;
+}
+
+img{
+    margin: 40px 0px 12px 0px;
+    border-radius: 15px;
+    
+    max-height: 18rem;
+	max-width: 18rem;
+}
+
+h1{
+    font-size: 26px;
+	font-family: 'Outfit', sans-serif;
+	font-weight: 700;
+	color: hsl(218, 44%, 22%);
+	text-align: center;
+	width: 100%;
+}
+
+p {
+    margin-top: -5px;
+    font-size: 16px;
+
+	font-family: 'Outfit', sans-serif;
+	font-weight: 400;
+	color: hsl(220, 15%, 55%);
+	text-align: center;
+}
